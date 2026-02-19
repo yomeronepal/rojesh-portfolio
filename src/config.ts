@@ -48,7 +48,7 @@ export interface HeroConfig {
 export const heroConfig: HeroConfig = {
   name: "Rojesh Prajapati",
   roles: ["Python Developer", "DevOps Engineer", "Backend Specialist", "Cloud Architect"],
-  backgroundImage: "/images/hero-bg.jpg",
+  backgroundImage: "images/hero-bg.jpg",
 };
 
 // About section configuration
@@ -82,10 +82,10 @@ export const aboutConfig: AboutConfig = {
     { value: "20+", label: "Technologies\nMastered" },
   ],
   images: [
-    { src: "/images/about-1.jpg", alt: "Rojesh in the Himalayas" },
-    { src: "/images/avatar.jpg", alt: "Rojesh Avatar" },
-    { src: "/images/about-1.jpg", alt: "Mountain Adventure" },
-    { src: "/images/avatar.jpg", alt: "Professional Avatar" },
+    { src: "images/about-1.jpg", alt: "Rojesh in the Himalayas" },
+    { src: "images/avatar.jpg", alt: "Rojesh Avatar" },
+    { src: "images/about-1.jpg", alt: "Mountain Adventure" },
+    { src: "images/avatar.jpg", alt: "Professional Avatar" },
   ],
 };
 
@@ -111,25 +111,25 @@ export const servicesConfig: ServicesConfig = {
       iconName: "Code",
       title: "Backend Development",
       description: "Building robust and scalable backend applications using Python, Django, Flask, and FastAPI. Expert in RESTful and GraphQL API development with comprehensive testing.",
-      image: "/images/service-1.jpg",
+      image: "images/service-1.jpg",
     },
     {
       iconName: "Cloud",
       title: "Cloud & DevOps",
       description: "Designing and implementing cloud infrastructure on AWS, GCP, and Azure. Setting up CI/CD pipelines with GitHub Actions, Docker containerization, and Kubernetes orchestration.",
-      image: "/images/service-2.jpg",
+      image: "images/service-2.jpg",
     },
     {
       iconName: "Database",
       title: "Database Design",
       description: "Creating optimized database schemas and queries for PostgreSQL and MySQL. Implementing caching strategies with Redis and message queues with Celery and Apache Kafka.",
-      image: "/images/service-3.jpg",
+      image: "images/service-3.jpg",
     },
     {
       iconName: "Plug",
       title: "API Integration",
       description: "Integrating third-party services including Stripe payments, Google Maps API, AWS IoT Core, CyberSource, CometChat, RevenueCat, and more for enhanced functionality.",
-      image: "/images/service-4.jpg",
+      image: "images/service-4.jpg",
     },
   ],
 };
@@ -169,7 +169,7 @@ export const portfolioConfig: PortfolioConfig = {
       title: "Willow",
       category: "IoT Plant Monitoring",
       year: "2023",
-      image: "/images/project-willow.jpg",
+      image: "images/project-willow.jpg",
       url: "https://plantwithwillow.com.au/",
       featured: true,
     },
@@ -177,35 +177,35 @@ export const portfolioConfig: PortfolioConfig = {
       title: "Hercules Pharmaceutical",
       category: "Healthcare Platform",
       year: "2022",
-      image: "/images/project-hercules.jpg",
+      image: "images/project-hercules.jpg",
       url: "https://www.herculesrx.com/",
     },
     {
       title: "BackToWork AI",
       category: "AI Job Platform",
       year: "2023",
-      image: "/images/project-backtowork.jpg",
+      image: "images/project-backtowork.jpg",
       url: "https://backtowork.ai/",
     },
     {
       title: "SRVD",
       category: "Legal Document Serving",
       year: "2022",
-      image: "/images/project-srvd.jpg",
+      image: "images/project-srvd.jpg",
       url: "https://ursrvd.com/",
     },
     {
       title: "RevX Bot",
       category: "Crypto Trading Platform",
       year: "2023",
-      image: "/images/project-revx.jpg",
+      image: "images/project-revx.jpg",
       url: "https://revxsys.com/",
     },
     {
       title: "Trackify",
       category: "Time Tracking System",
       year: "2021",
-      image: "/images/project-trackify.jpg",
+      image: "images/project-trackify.jpg",
       url: "https://trackify.outcodetest.com/",
     },
   ],
@@ -243,7 +243,7 @@ export const testimonialsConfig: TestimonialsConfig = {
       author: "Project Manager",
       role: "Tech Lead",
       company: "Tekkon Technologies",
-      image: "/images/avatar.jpg",
+      image: "images/avatar.jpg",
       rating: 5,
     },
     {
@@ -251,7 +251,7 @@ export const testimonialsConfig: TestimonialsConfig = {
       author: "Team Lead",
       role: "Engineering Manager",
       company: "Outcode Software",
-      image: "/images/avatar.jpg",
+      image: "images/avatar.jpg",
       rating: 5,
     },
     {
@@ -259,7 +259,7 @@ export const testimonialsConfig: TestimonialsConfig = {
       author: "Product Owner",
       role: "Product Manager",
       company: "Prixa Technologies",
-      image: "/images/avatar.jpg",
+      image: "images/avatar.jpg",
       rating: 5,
     },
   ],
@@ -283,7 +283,7 @@ export const ctaConfig: CTAConfig = {
   buttonText: "Get in Touch",
   buttonHref: "mailto:rojesh.praz@gmail.com",
   email: "rojesh.praz@gmail.com",
-  backgroundImage: "/images/cta-bg.jpg",
+  backgroundImage: "images/cta-bg.jpg",
 };
 
 // Footer section configuration

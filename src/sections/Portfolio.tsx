@@ -1,5 +1,5 @@
 import { } from 'react';
-import { cn } from '@/lib/utils';
+import { cn, assetUrl } from '@/lib/utils';
 import { useScrollAnimation, useStaggerAnimation } from '@/hooks/useScrollAnimation';
 import { ArrowUpRight } from 'lucide-react';
 import { portfolioConfig } from '@/config';
@@ -23,7 +23,7 @@ function ProjectCard({ project, index, isVisible }: { project: { title: string; 
           project.featured && 'lg:aspect-[16/9]'
         )}>
           <img
-            src={project.image}
+            src={assetUrl(project.image)}
             alt={project.title}
             className="w-full h-full object-cover transition-transform duration-700 ease-out-cubic group-hover:scale-105"
           />

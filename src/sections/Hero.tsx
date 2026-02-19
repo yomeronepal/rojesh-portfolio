@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef, useCallback } from 'react';
-import { cn } from '@/lib/utils';
+import { cn, assetUrl } from '@/lib/utils';
 import { heroConfig } from '@/config';
 
 const boxSize = 450;
@@ -46,7 +46,7 @@ export function Hero() {
         )}
       >
         <img
-          src={heroConfig.backgroundImage}
+          src={assetUrl(heroConfig.backgroundImage)}
           alt="Hero Background"
           className="absolute inset-0 w-full h-full object-cover"
           style={{ filter: 'blur(15px) brightness(0.7)' }}
@@ -78,7 +78,7 @@ export function Hero() {
           }}
         >
           <img
-            src={heroConfig.backgroundImage}
+            src={assetUrl(heroConfig.backgroundImage)}
             alt="Hero Sharp"
             className="w-full h-full object-cover"
           />

@@ -1,5 +1,5 @@
 import { } from 'react';
-import { cn } from '@/lib/utils';
+import { cn, assetUrl } from '@/lib/utils';
 import { useScrollAnimation, useStaggerAnimation } from '@/hooks/useScrollAnimation';
 import { aboutConfig } from '@/config';
 
@@ -97,7 +97,7 @@ export function About() {
                 >
                   <div className="aspect-[4/5] relative group cursor-pointer">
                     <img
-                      src={image.src}
+                      src={assetUrl(image.src)}
                       alt={image.alt}
                       className="w-full h-full object-cover transition-transform duration-500 ease-out-quad group-hover:scale-105"
                     />

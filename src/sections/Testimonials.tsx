@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { cn } from '@/lib/utils';
+import { cn, assetUrl } from '@/lib/utils';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import { testimonialsConfig } from '@/config';
@@ -93,7 +93,7 @@ export function Testimonials() {
                   )}
                 >
                   <img
-                    src={testimonial.image}
+                    src={assetUrl(testimonial.image)}
                     alt={testimonial.author}
                     className="w-full h-full object-cover"
                   />

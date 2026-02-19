@@ -1,5 +1,5 @@
 import { } from 'react';
-import { cn } from '@/lib/utils';
+import { cn, assetUrl } from '@/lib/utils';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { AnimatedButton } from '@/components/AnimatedButton';
 import { ArrowRight, Mail } from 'lucide-react';
@@ -15,7 +15,7 @@ export function CTA() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src={ctaConfig.backgroundImage}
+          src={assetUrl(ctaConfig.backgroundImage)}
           alt="Background"
           className="w-full h-full object-cover"
         />

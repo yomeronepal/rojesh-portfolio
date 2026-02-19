@@ -1,5 +1,5 @@
 import { useState, type ElementType } from 'react';
-import { cn } from '@/lib/utils';
+import { cn, assetUrl } from '@/lib/utils';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { useServiceParallax } from '@/hooks/useMouseParallax';
 import { servicesConfig } from '@/config';
@@ -62,7 +62,7 @@ function ServiceCard({ service, index }: ServiceCardProps) {
         style={getTransform(50, 6)}
       >
         <img
-          src={service.image}
+          src={assetUrl(service.image)}
           alt={service.title}
           className="w-full h-full object-cover"
         />
